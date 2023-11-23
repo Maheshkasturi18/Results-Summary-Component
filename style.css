@@ -1,0 +1,167 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color:  hsl(0, 0%, 100%);
+    width: 630px;
+    height: 450px;
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 30px;
+    /* box-shadow: 20px; */
+    
+   
+}
+
+.container1 {
+    width: 50%;
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 30px;
+}
+
+.result{
+    padding: 35px;
+    text-align: center;
+    color: hsl(0, 0%, 100%,0.7);
+}
+
+.score{
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    border-radius: 150px;
+    padding: 25px;
+    margin: auto;
+    background-color: hsl(252, 100%, 67%);
+}
+
+.score h1{
+    font-size: 70px;
+    color: hsl(0, 0%, 100%);
+}
+
+.score p{
+    font-weight: 800;
+    color: hsl(0, 0%, 100%,0.7);
+}
+
+.test{
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.test h3{
+    font-size: 25px;
+    color:hsl(0, 0%, 100%) ;
+}
+ 
+.test p{
+    padding: 15px 0px;
+    color:hsl(0, 0%, 100%,0.7) ;
+}
+
+
+
+
+
+.container2 {
+    width: 50%;
+    
+}
+
+.summary{
+   padding-bottom: 20px;
+}
+
+.reaction{
+    display: flex;
+     height: 50px;
+      padding: 10px 10px; 
+      background-color: hsl(0, 100%, 67%,0.05);
+      border-radius: 10px;
+      font-size: 15px;
+}
+
+.memory{
+    display: flex;
+     height: 50px;
+      padding: 10px 10px; 
+      background-color: hsl(39, 100%, 56%,0.05);
+      border-radius: 10px;
+      margin-top: 15px;
+      font-size: 15px;
+}
+
+.verbal{
+    display: flex;
+     height: 50px;
+      padding: 10px 10px; 
+      background-color: hsl(166, 100%, 37%,0.05);
+      border-radius: 10px;
+      margin-top: 15px;
+      font-size: 15px;
+}
+
+.visual{
+    display: flex;
+     height: 50px;
+      padding: 10px 10px; 
+      background-color: hsl(234, 85%, 45%,0.05);
+      border-radius: 10px;
+      margin-top: 15px;
+      font-size: 15px;
+}
+
+.continue{
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 40px;
+    height: 50px;
+    padding: 15px;
+    margin-top: 35px;
+    color: hsl(0, 0%, 100%);
+}
+
+.continue a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.continue:hover{
+    background-color: hsl(241, 81%, 54%);
+}
+
+
+@media (max-width:650px){
+    .container{
+        flex-direction: column;
+    }
+    .container1{
+        width: 100%;
+    }
+    .container2{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
